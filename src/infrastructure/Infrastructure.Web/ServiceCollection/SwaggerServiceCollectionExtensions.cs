@@ -20,7 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using AggregatedGenericResultMessage.Extensions.Common;
+using DomainCommonExtensions.DataTypeExtensions;
 using Infrastructure.Web.Helpers;
 using Infrastructure.Web.Helpers.Filters;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

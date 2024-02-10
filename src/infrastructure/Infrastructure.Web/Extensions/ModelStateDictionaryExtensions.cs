@@ -40,7 +40,7 @@ namespace Infrastructure.Web.Extensions
         /// <returns></returns>
         public static ModelStateDictionary AppendResultModelErrors(this ModelStateDictionary modelState, ICollection<IMessageModel> errors)
         {
-            foreach (var error in errors) modelState.AddModelError(error.Key, error.Message);
+            foreach (var error in errors) modelState.AddModelError(error.Key, error.Message.Info);
             return modelState;
         }
 

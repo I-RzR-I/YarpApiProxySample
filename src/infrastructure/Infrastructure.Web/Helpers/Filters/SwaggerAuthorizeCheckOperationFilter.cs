@@ -18,7 +18,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using AggregatedGenericResultMessage.Extensions.Common;
+using DomainCommonExtensions.DataTypeExtensions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.OpenApi.Models;
