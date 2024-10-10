@@ -20,7 +20,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.34.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.34.0" />
-    <PackageReference Include="UniqueServiceCollection" Version="1.0.2.831" />
+    <PackageReference Include="UniqueServiceCollection" Version="1.0.5.8331" />
   </ItemGroup>
 
   <ItemGroup>
